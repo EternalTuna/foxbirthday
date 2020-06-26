@@ -1,0 +1,36 @@
+/* styles for button */
+button {
+  /* size of button */
+  width: 100px;
+  height: 40px;
+  /* border of element */
+  border: 1px solid black;
+  /* white background */
+  background-color: white;
+  /* position is absolute */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  /* outline if clicked*/
+  outline: none;
+  /* transition - is careful */
+  transition: all .4s ease;
+  /* font style */
+  font-family: 'Arial Narrow', sans-serif;
+  font-size: 20px;
+}
+
+/* styles of button if pointed */
+button:hover {
+  /* cursor - finger */
+  cursor: pointer;
+  /* shadow */
+  box-shadow: 4px 4px crimson;
+}
+.clicked {
+    /* background-color */
+  background-color: black;
+    /* color - text color */
+  color: white
+}
